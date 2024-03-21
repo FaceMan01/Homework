@@ -1,0 +1,11 @@
+1. Только о прослушиваемых портах:
+netstat -tuln
+
+2. Только о портах TCP:
+netstat -tln
+
+3. Только о портах UDP:
+netstat -uln
+
+4. О программах (имя и PID):
+netstat -tulnp
