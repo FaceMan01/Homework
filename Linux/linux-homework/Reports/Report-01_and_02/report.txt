@@ -1,0 +1,9 @@
+My username is `whoami`
+------------
+total 12
+-rw-r--r-- 1 faceman faceman 2300 Oct 15 23:26 apt.txt
+-rw-r--r-- 1 faceman faceman 1272 Nov 21 18:32 path.txt
+-rw-r--r-- 1 faceman faceman   37 Mar 12 17:24 report.txt
+---
+locate test1.txt
+/home/faceman/test1.txt

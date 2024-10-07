@@ -1,0 +1,26 @@
+/home/faceman
+/home/faceman/NewDir/
+├── Reports
+│   ├── Report-01_and_02
+│   │   └── report.txt
+│   └── Report-03
+│       └── report.txt
+├── Test1
+│   └── test1.txt
+├── Test2
+├── Test3
+│   └── test1.txt
+└── Test4
+
+7 directories, 4 files
+/home/faceman/NewDir/
+├── Reports
+│   ├── Report-01_and_02
+│   │   └── report.txt
+│   └── Report-03
+│       └── report.txt
+├── Test1
+│   └── test1.txt
+└── Test2
+
+5 directories, 3 files
