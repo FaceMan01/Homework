@@ -1,0 +1,16 @@
+{
+    "name": "C/C++ Dev Container",
+    "image": "mcr.microsoft.com/devcontainers/cpp:ubuntu-24.04",  // официальный образ для C++
+    "features": {},
+    "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+    },
+    "extensions": [
+        "ms-vscode.cpptools",  // Расширение для C/C++
+        "ms-vscode.cmake-tools",  // Если работаешь с CMake
+        "oderwat.indent-rainbow"
+
+    ],
+    "postCreateCommand": "sudo apt-get update",
+    "remoteUser": "vscode"
+}
