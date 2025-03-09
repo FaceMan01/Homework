@@ -8,8 +8,8 @@ float square_angle = 0.0f;      // угол поворота квадрата
 bool rotating = false;          // флаг вращения квадрата
 
 // Позиция круга
-float circle_x = 0.5f;
-float circle_y = 0.0f;
+float triangle_x = 0.5f;
+float triangle_y = 0.0f;
 float moveSpeed = 0.01f;        // скорость перемещения круга
 
 // Флаги для перемещения круга
@@ -30,17 +30,14 @@ void drawSquare() {
 }
 
 // Функция отрисовки круга (с использованием многоугольника)
-void drawCircle() {
+void drawTriangle() {
     int num_segments = 100;
     float radius = 0.25f;
-    glBegin(GL_POLYGON);
+    glBegin(GL_TRIANGLES);
         glColor3f(0.0f, 0.0f, 1.0f);  // синий цвет
-        for (int i = 0; i < num_segments; i++) {
-            float theta = 2.0f * 3.1415926f * (float)i / (float)num_segments;
-            float x = radius * cosf(theta);
-            float y = radius * sinf(theta);
-            glVertex2f(x, y);
-        }
+        glVertex2f(0.25f, -0.25f);
+        glVertex2f( -0.25f, -0.25f);
+        glVertex2f( 0.25f,  0.25f);
     glEnd();
 }
 
@@ -59,8 +56,8 @@ void display(void) {
 
     // Отрисовка круга с учетом его позиции
     glPushMatrix();
-        glTranslatef(circle_x, circle_y, 0.0f);
-        drawCircle();
+        glTranslatef(triangle_x, triangle_y, 0.0f);
+        drawTriangle();
     glPopMatrix();
 
     glutSwapBuffers();
@@ -77,13 +74,13 @@ void idle(void) {
 
     // Обновляем позицию круга в зависимости от зажатых стрелок
     if (moveLeft)
-        circle_x -= moveSpeed;
+        triangle_x -= moveSpeed;
     if (moveRight)
-        circle_x += moveSpeed;
+        triangle_x += moveSpeed;
     if (moveUp)
-        circle_y += moveSpeed;
+        triangle_y += moveSpeed;
     if (moveDown)
-        circle_y -= moveSpeed;
+        triangle_y -= moveSpeed;
 
     glutPostRedisplay();
 }
