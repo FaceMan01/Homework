@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package citiesgame;
+
+// Сервис CitiesGame
+service CitiesGame {
+  // Запуск новой игры
+  rpc StartGame (StartGameRequest) returns (StartGameResponse);
+  // Сделать ход
+  rpc MakeMove (MakeMoveRequest) returns (MakeMoveResponse);
+}
+
+// Запрос на запуск игры
+message StartGameRequest {}
+
+// Ответ на запуск игры
+message StartGameResponse {
+  string message = 1; // Сообщение о начале игры
+}
+
+// Запрос на ход
+message MakeMoveRequest {
+  string cityName = 1; // Название города, предложенное игроком
+}
+
+// Ответ на ход
+message MakeMoveResponse {
+  bool isValidMove = 1; // Валидный ли ход
+  string nextLetter = 2; // Следующая буква для хода
+  string errorMessage = 3; // Сообщение об ошибке, если ход не валиден
+  bool gameOver = 4;      // Игра окончена? (например, если не осталось городов на нужную букву)
+}

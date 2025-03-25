@@ -9,7 +9,7 @@ def start_udp_server():
     
     # Словарь для хранения состояний клиентов.
     # По ключу (адрес клиента) будем отслеживать, ожидаем ли мы от него имя.
-    client_states = {}  # значение: "awaiting_name"
+    client_states = {} 
     
     while True:
         data, client_address = server_socket.recvfrom(1024)

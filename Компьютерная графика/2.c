@@ -3,16 +3,13 @@
 #include <stdbool.h>
 #include <math.h>
 
-// Глобальные переменные
 float square_angle = 0.0f;      // угол поворота квадрата
 bool rotating = false;          // флаг вращения квадрата
 
-// Позиция круга
 float triangle_x = 0.5f;
 float triangle_y = 0.0f;
-float moveSpeed = 0.01f;        // скорость перемещения круга
+float moveSpeed = 0.01f;        // скорость перемещения
 
-// Флаги для перемещения круга
 bool moveLeft  = false;
 bool moveRight = false;
 bool moveUp    = false;
@@ -21,7 +18,7 @@ bool moveDown  = false;
 // Функция отрисовки квадрата
 void drawSquare() {
     glBegin(GL_QUADS);
-        glColor3f(1.0f, 0.0f, 0.0f);  // красный цвет
+        glColor3f(1.0f, 0.0f, 0.0f);
         glVertex2f(-0.25f, -0.25f);
         glVertex2f( 0.25f, -0.25f);
         glVertex2f( 0.25f,  0.25f);
@@ -29,12 +26,9 @@ void drawSquare() {
     glEnd();
 }
 
-// Функция отрисовки круга (с использованием многоугольника)
 void drawTriangle() {
-    int num_segments = 100;
-    float radius = 0.25f;
     glBegin(GL_TRIANGLES);
-        glColor3f(0.0f, 0.0f, 1.0f);  // синий цвет
+        glColor3f(0.0f, 0.0f, 1.0f); 
         glVertex2f(0.25f, -0.25f);
         glVertex2f( -0.25f, -0.25f);
         glVertex2f( 0.25f,  0.25f);
@@ -46,15 +40,14 @@ void display(void) {
     glClear(GL_COLOR_BUFFER_BIT);
     glLoadIdentity();
 
-    // Отрисовка квадрата с поворотом
+    // Отрисовка квадрата
     glPushMatrix();
-        // Перенос квадрата в левую часть экрана
         glTranslatef(-0.5f, 0.0f, 0.0f);
         glRotatef(square_angle, 0.0f, 0.0f, 1.0f);
         drawSquare();
     glPopMatrix();
 
-    // Отрисовка круга с учетом его позиции
+    // Отрисовка треугольника
     glPushMatrix();
         glTranslatef(triangle_x, triangle_y, 0.0f);
         drawTriangle();
@@ -63,13 +56,10 @@ void display(void) {
     glutSwapBuffers();
 }
 
-// Функция, которая обновляет состояние объектов
 void idle(void) {
     // Обновляем угол поворота квадрата, если включено вращение
     if (rotating) {
-        square_angle += 0.5f;
-        if (square_angle > 360.0f)
-            square_angle -= 360.0f;
+        square_angle += 2.0f;
     }
 
     // Обновляем позицию круга в зависимости от зажатых стрелок
@@ -94,7 +84,7 @@ void mouse(int button, int state, int x, int y) {
     }
 }
 
-// Обработчик нажатия специальных клавиш (стрелок)
+// Обработчик нажатия стрелок
 void specialKeys(int key, int x, int y) {
     switch (key) {
         case GLUT_KEY_LEFT:  moveLeft  = true; break;
@@ -104,7 +94,7 @@ void specialKeys(int key, int x, int y) {
     }
 }
 
-// Обработчик отпускания специальных клавиш (стрелок)
+// Обработчик отпускания стрелок
 void specialKeysUp(int key, int x, int y) {
     switch (key) {
         case GLUT_KEY_LEFT:  moveLeft  = false; break;
@@ -116,20 +106,17 @@ void specialKeysUp(int key, int x, int y) {
 
 int main(int argc, char** argv) {
     glutInit(&argc, argv);
-    // Используем двойную буферизацию и RGB-режим
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
     glutInitWindowSize(600, 600);
     glutInitWindowPosition(100, 100);
     glutCreateWindow("Задание 2");
 
-    // Регистрируем обработчики событий
     glutDisplayFunc(display);
     glutIdleFunc(idle);
     glutMouseFunc(mouse);
     glutSpecialFunc(specialKeys);
     glutSpecialUpFunc(specialKeysUp);
 
-    // Устанавливаем белый цвет фона
     glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
 
     glutMainLoop();

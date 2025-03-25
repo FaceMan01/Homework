@@ -3,36 +3,31 @@
 #include <stdio.h>
 
 float eyex = 5.0f, eyey = 5.0f, eyez = 5.0f;
-int projectionMode = 0; // 0 - Perspective, 1 - Orthographic
+int projectionMode = 0;
 
 void drawCube() {
     glBegin(GL_QUADS);
-    // Front face
+
     glColor3f(1, 0, 0);
     glVertex3f(-1, -1, 1); glVertex3f(1, -1, 1);
     glVertex3f(1, 1, 1); glVertex3f(-1, 1, 1);
     
-    // Back face
     glColor3f(0, 1, 0);
     glVertex3f(-1, -1, -1); glVertex3f(-1, 1, -1);
     glVertex3f(1, 1, -1); glVertex3f(1, -1, -1);
     
-    // Left face
     glColor3f(0, 0, 1);
     glVertex3f(-1, -1, -1); glVertex3f(-1, -1, 1);
     glVertex3f(-1, 1, 1); glVertex3f(-1, 1, -1);
     
-    // Right face
     glColor3f(1, 1, 0);
     glVertex3f(1, -1, -1); glVertex3f(1, 1, -1);
     glVertex3f(1, 1, 1); glVertex3f(1, -1, 1);
     
-    // Top face
     glColor3f(1, 0, 1);
     glVertex3f(-1, 1, -1); glVertex3f(-1, 1, 1);
     glVertex3f(1, 1, 1); glVertex3f(1, 1, -1);
     
-    // Bottom face
     glColor3f(0, 1, 1);
     glVertex3f(-1, -1, -1); glVertex3f(1, -1, -1);
     glVertex3f(1, -1, 1); glVertex3f(-1, -1, 1);
