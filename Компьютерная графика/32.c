@@ -94,12 +94,10 @@ void keyboard(unsigned char key, int x, int y) {
     float step = 0.2f; // Шаг перемещения камеры
     switch (key) {
         case 'd': // Поворот камеры влево (по часовой стрелке)
-            angle -= 5.0f;
-            if (angle < 0) angle += 360.0f;
+            angle -= step;
             break;
         case 'a': // Поворот камеры вправо (против часовой стрелки)
-            angle += 5.0f;
-            if (angle > 360) angle -= 360.0f;
+            angle += step;
             break;
         case 'w': // Подъем камеры
             eyey += step;
