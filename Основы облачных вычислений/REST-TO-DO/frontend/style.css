@@ -1,0 +1,249 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#add-todo-form {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+    width: calc(100% - 22px); /* Учитываем padding и border */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 60px;
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+button[type="submit"] {
+     display: block;
+     width: 100%;
+}
+
+
+.filters {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.filters button {
+    background-color: #f0ad4e;
+    margin: 0 5px;
+}
+.filters button:hover {
+    background-color: #ec971f;
+}
+.filters button.active {
+    background-color: #d9534f;
+    font-weight: bold;
+}
+
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#todo-list li {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    word-wrap: break-word; /* Перенос длинных слов */
+    overflow-wrap: break-word;
+}
+
+#todo-list li.loading {
+    text-align: center;
+    color: #777;
+    font-style: italic;
+    box-shadow: none;
+}
+
+
+#todo-list .todo-content {
+    flex-grow: 1;
+    margin: 0 15px;
+}
+
+#todo-list .todo-content .title {
+    font-weight: bold;
+    display: block; /* Чтобы описание было под ним */
+}
+#todo-list .todo-content .description {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 5px;
+    display: block; /* Чтобы описание было под ним */
+    white-space: pre-wrap; /* Сохраняем переносы строк из описания */
+}
+
+
+#todo-list li.done .todo-content .title,
+#todo-list li.done .todo-content .description {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+#todo-list input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2); /* Немного увеличить чекбокс */
+    cursor: pointer;
+}
+
+#todo-list .delete-btn {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-left: 10px; /* Отступ от контента */
+}
+
+#todo-list .delete-btn:hover {
+    background-color: #c9302c;
+}   
+
+/* Добавьте или измените эти стили в style.css */
+
+/* ... (предыдущие стили) ... */
+
+#todo-list .action-buttons {
+    /* Контейнер для кнопок справа */
+    display: flex;
+    align-items: center;
+    margin-left: 15px; /* Отступ от контента */
+    flex-shrink: 0; /* Не сжимать кнопки */
+}
+
+#todo-list .edit-btn,
+#todo-list .save-btn,
+#todo-list .cancel-btn {
+    background-color: #337ab7; /* Синий для редактирования */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-left: 5px; /* Небольшой отступ между кнопками */
+}
+
+#todo-list .edit-btn:hover {
+    background-color: #286090;
+}
+
+#todo-list .save-btn {
+    background-color: #5cb85c; /* Зеленый для сохранения */
+}
+#todo-list .save-btn:hover {
+     background-color: #4cae4c;
+}
+
+#todo-list .cancel-btn {
+    background-color: #f0ad4e; /* Оранжевый для отмены */
+}
+#todo-list .cancel-btn:hover {
+     background-color: #ec971f;
+}
+
+
+/* Стили для режима редактирования */
+#todo-list li.editing .todo-content .title,
+#todo-list li.editing .todo-content .description {
+    display: none; /* Скрываем текст при редактировании */
+}
+
+#todo-list li .edit-input-container {
+    display: none; /* Скрываем контейнер с полями ввода по умолчанию */
+    flex-grow: 1; /* Занимает доступное место */
+    margin: 0 15px;
+}
+
+#todo-list li.editing .edit-input-container {
+    display: block; /* Показываем контейнер при редактировании */
+}
+
+#todo-list li.editing input[type="checkbox"] {
+     visibility: hidden; /* Скрываем чекбокс во время редактирования */
+}
+
+#todo-list li.editing .action-buttons .edit-btn,
+#todo-list li.editing .action-buttons .delete-btn {
+    display: none; /* Скрываем кнопки Edit/Delete во время редактирования */
+}
+
+#todo-list li .action-buttons .save-btn,
+#todo-list li .action-buttons .cancel-btn {
+    display: none; /* Скрываем кнопки Save/Cancel по умолчанию */
+}
+
+#todo-list li.editing .action-buttons .save-btn,
+#todo-list li.editing .action-buttons .cancel-btn {
+    display: inline-block; /* Показываем Save/Cancel при редактировании */
+}
+
+/* Стили для полей ввода в режиме редактирования */
+.edit-input-container input[type="text"],
+.edit-input-container textarea {
+    width: calc(100% - 22px); /* Адаптируем ширину */
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1em; /* Чтобы соответствовать размеру текста */
+    box-sizing: border-box; /* Учитываем padding и border в ширине */
+}
+.edit-input-container textarea {
+    min-height: 40px;
+    resize: vertical;
+}

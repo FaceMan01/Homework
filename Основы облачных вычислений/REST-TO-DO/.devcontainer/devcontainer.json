@@ -1,0 +1,22 @@
+{
+    "name": "FastAPI + React Dev Container",
+
+    "image": "mcr.microsoft.com/devcontainers/python:3.12",
+    
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+
+    "extensions": [
+        "ms-python.python",
+        "ms-azuretools.vscode-docker",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "wallabyjs.console-ninja",
+        "oderwat.indent-rainbow",
+    ],
+
+    "postCreateCommand": "pip install --upgrade pip && pip install fastapi uvicorn[standard] sqlalchemy pydantic",
+    "forwardPorts": [8000, 3000],
+    "remoteUser": "vscode"
+}
