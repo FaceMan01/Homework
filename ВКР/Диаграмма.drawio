@@ -1,177 +1,205 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
   <diagram name="Страница — 1" id="Cb8S4nZI5fMl3teT78cX">
-    <mxGraphModel dx="3613" dy="2687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3170" dy="1928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="baanKRom0UMToKJBh0mu-1" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;fontSize=22;strokeWidth=2;shadow=0;" parent="1" vertex="1">
+        <mxCell id="baanKRom0UMToKJBh0mu-1" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;fontSize=28;strokeWidth=2;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="20" y="20" width="35" height="1290" as="geometry" />
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-2" value="Frontend" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=22;strokeWidth=2;shadow=0;" parent="1" vertex="1">
+        <mxCell id="baanKRom0UMToKJBh0mu-2" value="Frontend" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=28;strokeWidth=2;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="463" y="20" width="150" height="1290" as="geometry" />
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-3" value="Backend" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=22;strokeWidth=2;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="735" y="20" width="150" height="1290" as="geometry" />
+        <mxCell id="baanKRom0UMToKJBh0mu-3" value="Backend" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=28;strokeWidth=2;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="762" y="20" width="150" height="1290" as="geometry" />
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-4" value="YOLO" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=22;strokeWidth=2;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="1067" y="20" width="150" height="1290" as="geometry" />
+        <mxCell id="baanKRom0UMToKJBh0mu-4" value="YOLO" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=28;strokeWidth=2;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="1091" y="20" width="150" height="1290" as="geometry" />
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-5" value="loop" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=37;width=55;fontSize=22;strokeWidth=2;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="775" y="483" width="375" height="129" as="geometry" />
+        <mxCell id="baanKRom0UMToKJBh0mu-5" value="loop" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=37;width=55;fontSize=24;strokeWidth=2;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="775" y="483" width="405" height="129" as="geometry" />
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-6" value="" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=22;strokeWidth=2;shadow=0;" parent="baanKRom0UMToKJBh0mu-5" vertex="1">
-          <mxGeometry x="46.43962848297214" width="328.5603715170279" height="20" as="geometry" />
+        <mxCell id="baanKRom0UMToKJBh0mu-6" value="" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=24;strokeWidth=2;shadow=0;" parent="baanKRom0UMToKJBh0mu-5" vertex="1">
+          <mxGeometry x="50.15479876160991" width="354.84520123839013" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-7" value="loop" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=32;width=55;fontSize=22;strokeWidth=2;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="775" y="958" width="375" height="129" as="geometry" />
+        <mxCell id="baanKRom0UMToKJBh0mu-7" value="loop" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=32;width=55;fontSize=24;strokeWidth=2;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="775" y="958" width="405" height="142" as="geometry" />
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-8" value="" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=22;strokeWidth=2;shadow=0;" parent="baanKRom0UMToKJBh0mu-7" vertex="1">
-          <mxGeometry x="46.43962848297214" width="328.5603715170279" height="20" as="geometry" />
+        <mxCell id="baanKRom0UMToKJBh0mu-8" value="" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=24;strokeWidth=2;shadow=0;" parent="baanKRom0UMToKJBh0mu-7" vertex="1">
+          <mxGeometry x="50.15479876160991" width="354.84520123839013" height="22.015503875968992" as="geometry" />
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-9" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=37;width=46;fontSize=22;strokeWidth=2;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="-10" y="333" width="1170" height="950" as="geometry" />
+        <mxCell id="baanKRom0UMToKJBh0mu-9" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=37;width=46;fontSize=24;strokeWidth=2;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="333" width="1200" height="950" as="geometry" />
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-10" value="[Обработка изображений]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=22;strokeWidth=2;shadow=0;" parent="baanKRom0UMToKJBh0mu-9" vertex="1">
-          <mxGeometry x="34.27734375" width="1135.72265625" height="20" as="geometry" />
+        <mxCell id="baanKRom0UMToKJBh0mu-10" value="[Обработка изображений]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=24;strokeWidth=2;shadow=0;" parent="baanKRom0UMToKJBh0mu-9" vertex="1">
+          <mxGeometry x="35.15625" width="1164.84375" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-11" value="[Обработка видео]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;fontSize=22;strokeWidth=2;shadow=0;" parent="baanKRom0UMToKJBh0mu-9" vertex="1">
-          <mxGeometry y="398" width="1170" height="4" as="geometry" />
+        <mxCell id="baanKRom0UMToKJBh0mu-11" value="[Обработка видео]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;fontSize=24;strokeWidth=2;shadow=0;" parent="baanKRom0UMToKJBh0mu-9" vertex="1">
+          <mxGeometry y="398" width="1200" height="4" as="geometry" />
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-12" value="Загружает модель / выбирает предустановленную" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=22;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-1" target="baanKRom0UMToKJBh0mu-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="baanKRom0UMToKJBh0mu-12" value="Загружает модель /&#xa;выбирает предустановленную" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=24;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-1" target="baanKRom0UMToKJBh0mu-2" edge="1">
+          <mxGeometry x="-0.0287" y="7" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="325" y="127" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-13" value="Передаёт путь к модели" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=22;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-2" target="baanKRom0UMToKJBh0mu-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="baanKRom0UMToKJBh0mu-13" value="Передаёт путь &#xa;к модели" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=24;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-2" target="baanKRom0UMToKJBh0mu-3" edge="1">
+          <mxGeometry x="-0.0178" y="9" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="671" y="179" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-14" value="Проверка модели" style="curved=1;endArrow=block;rounded=0;fontSize=22;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-3" target="baanKRom0UMToKJBh0mu-3" edge="1">
+        <mxCell id="baanKRom0UMToKJBh0mu-14" value="Проверка модели" style="curved=1;endArrow=block;rounded=0;fontSize=24;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-3" target="baanKRom0UMToKJBh0mu-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="834" y="220" />
-              <mxPoint x="861" y="231" />
-              <mxPoint x="861" y="261" />
-              <mxPoint x="834" y="270" />
+              <mxPoint x="840" y="220" />
+              <mxPoint x="860" y="220" />
+              <mxPoint x="873" y="231" />
+              <mxPoint x="873" y="261" />
+              <mxPoint x="846" y="270" />
             </Array>
-            <mxPoint x="814" y="270" as="targetPoint" />
+            <mxPoint x="848" y="270" as="targetPoint" />
+            <mxPoint x="848" y="220" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-15" value="Загрузка модели" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=22;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-3" target="baanKRom0UMToKJBh0mu-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="baanKRom0UMToKJBh0mu-15" value="Загрузка модели" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=24;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-3" target="baanKRom0UMToKJBh0mu-4" edge="1">
+          <mxGeometry x="-0.0327" y="3" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="945" y="313" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-16" value="Загружает набор изображения" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=22;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-1" target="baanKRom0UMToKJBh0mu-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="baanKRom0UMToKJBh0mu-16" value="Загружает набор изображений" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=24;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-1" target="baanKRom0UMToKJBh0mu-2" edge="1">
+          <mxGeometry x="-0.0287" y="11" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="325" y="411" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-17" value="Передаёт изображения" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=22;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-2" target="baanKRom0UMToKJBh0mu-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="baanKRom0UMToKJBh0mu-17" value="Передаёт изображения" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=24;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-2" target="baanKRom0UMToKJBh0mu-3" edge="1">
+          <mxGeometry x="-0.0178" y="13" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="671" y="463" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-18" value="Передаёт изображене" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=22;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-3" target="baanKRom0UMToKJBh0mu-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="baanKRom0UMToKJBh0mu-18" value="Передает изображение" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=24;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-3" target="baanKRom0UMToKJBh0mu-4" edge="1">
+          <mxGeometry x="0.0277" y="10" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="945" y="540" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-19" value="Аннотированное изображение" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=22;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-4" target="baanKRom0UMToKJBh0mu-3" edge="1">
-          <mxGeometry x="-0.0277" y="-2" relative="1" as="geometry">
+        <mxCell id="baanKRom0UMToKJBh0mu-19" value="Аннотированное&#xa;изображение" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=24;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-4" target="baanKRom0UMToKJBh0mu-3" edge="1">
+          <mxGeometry x="-0.0277" y="68" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="948" y="592" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-20" value="Передаёт результаты" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=22;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-3" target="baanKRom0UMToKJBh0mu-2" edge="1">
+        <mxCell id="baanKRom0UMToKJBh0mu-20" value="Передаёт результаты" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=24;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-3" target="baanKRom0UMToKJBh0mu-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="674" y="654" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-21" value="Отображает галерею результатов" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=22;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-2" target="baanKRom0UMToKJBh0mu-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="baanKRom0UMToKJBh0mu-21" value="Отображает галерею результатов" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=24;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-2" target="baanKRom0UMToKJBh0mu-1" edge="1">
+          <mxGeometry x="-0.011" y="-6" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="328" y="706" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-22" value="Загружает видео" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=22;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-1" target="baanKRom0UMToKJBh0mu-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="baanKRom0UMToKJBh0mu-22" value="Загружает видео" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=24;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-1" target="baanKRom0UMToKJBh0mu-2" edge="1">
+          <mxGeometry x="0.011" y="14" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="325" y="804" />
             </Array>
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-23" value="Передаёт видео" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=22;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-2" target="baanKRom0UMToKJBh0mu-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="baanKRom0UMToKJBh0mu-23" value="Передаёт видео" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=24;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-2" target="baanKRom0UMToKJBh0mu-3" edge="1">
+          <mxGeometry x="0.0228" y="6" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="671" y="856" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-24" value="Разбиение видео на кадры" style="curved=1;endArrow=block;rounded=0;fontSize=22;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-3" target="baanKRom0UMToKJBh0mu-3" edge="1">
+        <mxCell id="baanKRom0UMToKJBh0mu-24" value="Разбиение видео на кадры" style="curved=1;endArrow=block;rounded=0;fontSize=24;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-3" target="baanKRom0UMToKJBh0mu-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="834" y="900" />
-              <mxPoint x="861" y="908" />
-              <mxPoint x="861" y="938" />
-              <mxPoint x="834" y="950" />
+              <mxPoint x="840" y="870" />
+              <mxPoint x="870" y="870" />
+              <mxPoint x="880" y="890" />
+              <mxPoint x="880" y="900" />
+              <mxPoint x="880" y="910" />
+              <mxPoint x="860" y="929" />
             </Array>
+            <mxPoint x="830" y="860" as="sourcePoint" />
+            <mxPoint x="837.0476190476193" y="929" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-25" value="Передаёт кадр" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=22;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-3" target="baanKRom0UMToKJBh0mu-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="baanKRom0UMToKJBh0mu-25" value="Передает кадр" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=24;strokeWidth=2;shadow=0;" parent="1" edge="1">
+          <mxGeometry x="0.0284" y="5" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="945" y="1015" />
+              <mxPoint x="920" y="1000" />
+              <mxPoint x="945" y="1025" />
             </Array>
+            <mxPoint x="836.1818181818189" y="1000" as="sourcePoint" />
+            <mxPoint x="1165" y="1000" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-26" value="Аннотированный кадр" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=22;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-4" target="baanKRom0UMToKJBh0mu-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="baanKRom0UMToKJBh0mu-26" value="Аннотированный&#xa;кадр" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=24;strokeWidth=2;shadow=0;" parent="1" edge="1">
+          <mxGeometry x="0.0036" y="-7" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="948" y="1067" />
+              <mxPoint x="951.82" y="1090" />
             </Array>
+            <mxPoint x="1168.82" y="1090" as="sourcePoint" />
+            <mxPoint x="840.001818181819" y="1090" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-27" value="Сбор кадров в видео" style="curved=1;endArrow=block;rounded=0;fontSize=22;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-3" target="baanKRom0UMToKJBh0mu-3" edge="1">
+        <mxCell id="baanKRom0UMToKJBh0mu-27" value="Сбор кадров в видео" style="curved=1;endArrow=block;rounded=0;fontSize=24;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-3" target="baanKRom0UMToKJBh0mu-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="834" y="1120" />
-              <mxPoint x="861" y="1129" />
-              <mxPoint x="861" y="1159" />
-              <mxPoint x="834" y="1170" />
+              <mxPoint x="850" y="1120" />
+              <mxPoint x="860" y="1120" />
+              <mxPoint x="880" y="1130" />
+              <mxPoint x="880" y="1140" />
+              <mxPoint x="880" y="1160" />
+              <mxPoint x="870" y="1170" />
+              <mxPoint x="860" y="1170" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-28" value="Передаёт результат" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=22;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-3" target="baanKRom0UMToKJBh0mu-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="baanKRom0UMToKJBh0mu-28" value="Передаёт результат" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=24;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-3" target="baanKRom0UMToKJBh0mu-2" edge="1">
+          <mxGeometry x="0.047" y="-11" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="674" y="1211" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="baanKRom0UMToKJBh0mu-29" value="Показывает видео" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=22;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-2" target="baanKRom0UMToKJBh0mu-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="baanKRom0UMToKJBh0mu-29" value="Показывает видео" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=24;strokeWidth=2;shadow=0;" parent="1" source="baanKRom0UMToKJBh0mu-2" target="baanKRom0UMToKJBh0mu-1" edge="1">
+          <mxGeometry x="-0.011" y="-3" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="328" y="1263" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
